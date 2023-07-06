@@ -36,6 +36,7 @@
 10. [Laravel Permission](https://spatie.be/docs/laravel-permission/v5/introduction)
 11. [JWT Auth](https://laravel-jwt-auth.readthedocs.io/en/latest/laravel-installation/)
 12. [Laravel Backup](https://spatie.be/docs/laravel-backup/v8/introduction/)
+13. [Route-attribute](https://github.com/spatie/laravel-route-attributes)
 
 # OAuth
 

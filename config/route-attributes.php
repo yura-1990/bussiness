@@ -20,7 +20,7 @@ return [
         ],
 
         app_path('Http/Controllers/Web/App') => [
-            'middleware' => ['auth:web']
+            'middleware' => ['auth']
         ],
 
         app_path('Http/Controllers/Api') => [

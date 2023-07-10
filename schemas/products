@@ -1,0 +1,10 @@
+products
+ - id
+ - category_id (categories.id)
+ - name
+ - price
+ - image
+ - description
+ - exist
+
+

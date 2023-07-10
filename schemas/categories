@@ -1,0 +1,4 @@
+categories
+ - id
+ - parent_id (categories.id)
+ - name

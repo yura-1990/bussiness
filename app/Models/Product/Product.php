@@ -25,4 +25,15 @@ class Product extends Model
     {
         return $this->belongsTo(Category::class);
     }
+
+    /**
+     * @param $query
+     * @param $searchQuery
+     * @return mixed
+     */
+    public function scopeSearch($query, $searchQuery)
+    {
+        return $query->where('name', 'like', "%$searchQuery%")
+            ->orWhere('description', 'like', "%$searchQuery%");
+    }
 }

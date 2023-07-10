@@ -1,0 +1,6 @@
+cards
+ - id
+ - product_id (products.id)
+ - amount
+ - summa
+ - book_status (paid true, no-paid false)

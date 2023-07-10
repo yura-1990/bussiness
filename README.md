@@ -5,9 +5,7 @@
 # Requirements
 
 1. PHP 8.1
-2. Postgres 15
-3. Composer 2.2
-4. Redis 5.0.7
+2. Composer 2.2
 
 # Installation
 
@@ -17,26 +15,28 @@
 4. Run `php artisan key:generate`
 5. Run `php artisan jwt:secret`
 6. Run `php artisan migrate`
-7. Run `php artisan db:seed`
-8. Run `php artisan serve`
-9. Open [http://localhost:8000](http://localhost:800) in your browser
-10. Swagger documentation is available at [http://localhost:8000/documentation](http://localhost:8000/documentation)
+7. Run `php artisan serve`
+8. Open [http://localhost:8000](http://localhost:800) in your browser
+9. Swagger documentation is available at [http://localhost:8000/documentation](http://localhost:8000/documentation)
+
+# Installation with docker
+
+1. RUN `docker-compose build`
+2. RUN `docker-compose up -d` for start
+3. RUN `docker-compose down` for stop
+
+# Deployment
+
+1. Provide your server data in `.github/workflows/deployment.yml` and 
+2. Push master branch to automatically deploy 
 
 # Packages
 
 1. [Laravel Passport](https://laravel.com/docs/passport)
 2. [Laravel OpenAPI](https://vyuldashev.github.io/laravel-openapi/)
 3. [Swagger UI](https://swagger.io/tools/swagger-ui/)
-4. [Laravel Telescope](https://laravel.com/docs/telescope)
-5. [Laravel Websockets](https://beyondco.de/docs/laravel-websockets/getting-started/introduction)
-6. [Laravel Excel](https://docs.laravel-excel.com/3.1/getting-started/)
-7. [Laravel DomPDF](https://github.com/barryvdh/laravel-dompdf)
-8. [Laravel Visitor](https://github.com/shetabit/visitor)
-9. [Laravel ActivityLog](https://github.com/spatie/laravel-activitylog)
-10. [Laravel Permission](https://spatie.be/docs/laravel-permission/v5/introduction)
-11. [JWT Auth](https://laravel-jwt-auth.readthedocs.io/en/latest/laravel-installation/)
-12. [Laravel Backup](https://spatie.be/docs/laravel-backup/v8/introduction/)
-13. [Route-attribute](https://github.com/spatie/laravel-route-attributes)
+4. [JWT Auth](https://laravel-jwt-auth.readthedocs.io/en/latest/laravel-installation/)
+5. [Route-attribute](https://github.com/spatie/laravel-route-attributes)
 
 # OAuth
 
